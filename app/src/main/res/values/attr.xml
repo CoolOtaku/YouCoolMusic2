@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="dt">
+        <attr name="btnColor" format="color"/>
+        <attr name="NbgColor" format="color"/>
+        <attr name="TextColor" format="color"/>
+    </declare-styleable>
+</resources>

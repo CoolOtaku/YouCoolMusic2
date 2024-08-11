@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pm_by_usual"
+        android:title="@string/by_usual" />
+
+    <item
+        android:id="@+id/pm_by_growing_up"
+        android:title="@string/by_growing_up" />
+
+    <item
+        android:id="@+id/pm_by_decrease"
+        android:title="@string/by_decrease" />
+
+    <item
+        android:id="@+id/pm_by_random"
+        android:title="@string/by_random" />
+
+</menu>

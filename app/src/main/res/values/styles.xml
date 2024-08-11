@@ -1,0 +1,34 @@
+<resources>
+    <style name="SplashTheme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="AppThemeDark" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorMenu</item>
+        <item name="colorPrimaryDark">@color/colorMenu</item>
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/colorBlack</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:windowBackground">@drawable/bg_dark</item>
+
+        <item name="btnColor">@color/colorButton</item>
+        <item name="NbgColor">@color/colorMenu</item>
+        <item name="TextColor">@color/colorWhite</item>
+    </style>
+    <style name="AppThemeWhite" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorWhiteLitle</item>
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="android:textColorPrimary">@color/colorBlack</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:navigationBarColor">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:windowBackground">@drawable/bg_white</item>
+
+        <item name="btnColor">@color/colorWhiteLitle</item>
+        <item name="NbgColor">@color/colorWhiteLitle</item>
+        <item name="TextColor">@color/colorBlack</item>
+    </style>
+
+</resources>

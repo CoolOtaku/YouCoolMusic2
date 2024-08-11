@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/b_export"
+            android:icon="@drawable/ic_save"
+            android:title="@string/b_export" />
+        <item
+            android:id="@+id/b_import"
+            android:icon="@drawable/ic_archive"
+            android:title="@string/b_import" />
+        <item
+            android:id="@+id/b_add_play_list"
+            android:icon="@drawable/ic_playlist_add"
+            android:title="@string/b_add_play_list" />
+        <item
+            android:id="@+id/b_delete_play_list"
+            android:icon="@drawable/ic_delete_sweep"
+            android:title="@string/b_delete_play_list" />
+        <item
+            android:id="@+id/b_about"
+            android:icon="@drawable/ic_info"
+            android:title="@string/b_about" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/b_update"
+            android:icon="@drawable/ic_system_update"
+            android:title="@string/b_update" />
+        <item
+            android:id="@+id/b_change_theme"
+            android:icon="@drawable/ic_brightness"
+            android:title="@string/b_change_theme" />
+    </group>
+
+</menu>

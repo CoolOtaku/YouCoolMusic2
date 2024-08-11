@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/pm_copy"
+        android:title="@string/copy" >
+        <menu>
+            <item
+                android:id="@+id/pm_copy_url_video"
+                android:title="@string/copy_url_video" />
+            <item
+                android:id="@+id/pm_copy_video_name"
+                android:title="@string/copy_video_name" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/pm_download_video"
+        android:title="@string/download_video" />
+
+    <item
+        android:id="@+id/pm_move_to_playlist"
+        android:title="@string/move_to_playlist" />
+
+    <item
+        android:id="@+id/pm_delete_video"
+        android:title="@string/delete_video" />
+
+</menu>
