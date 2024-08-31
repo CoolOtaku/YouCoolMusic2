@@ -4,6 +4,8 @@
 ## Description
 <b>EN:</b>
 
+This is a **YouCoolMusic2** music application created in the **Java** programming language.
+
 My analogue is **YouTube Music** and **YouTube Premium**. Continuation of the previous project [**YouCoolMusic**](https://github.com/CoolOtaku/YouCoolMusic).
 
 The app uses the ***YouTube API KEY*** to search for videos on **YouTube**. [References to documentation](https://developers.google.com/youtube/v3/docs/search/list). 
@@ -17,6 +19,8 @@ Using this **API** key occurs in the following lines:
 Link to file from [**YouTube_API_KEY**](app/src/main/java/com/example/youcoolmusic2/App.java).
 
 <b>UA:</b>
+
+Це музичний додаток **YouCoolMusic2** створений на мові програмування **Java**.
 
 Мій аналог - **YouTube Music** та **YouTube Premium**. Продовження попереднього проєкту [**YouCoolMusic**](https://github.com/CoolOtaku/YouCoolMusic).
 
